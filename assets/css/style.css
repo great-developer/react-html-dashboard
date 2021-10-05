@@ -1,0 +1,277 @@
+
+.wallet-title {
+    font-family: 'Montserrat Regular';
+    padding-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.sub-letter {
+    font-family: 'Montserrat Regular';
+	font-size: small;
+    margin-bottom: 4px;
+}
+
+.area-div {
+    font-family: 'Montserrat Regular';
+	color: rgb(255, 255, 255);
+    background-color: rgb(28, 117, 188);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 30px 20px 15px;
+    border-radius: 0px;
+    user-select: none;
+    max-width: 228px;
+    height: 94px;
+}
+
+.plus {
+	padding-top: 0;
+}
+
+.h3 {
+	font-size: 1.75rem;
+    font-family: 'Montserrat Regular';
+}
+
+.about-title {
+	font-weight: 500;
+    font-family: 'Montserrat Regular';
+}
+
+.list {
+	list-style-type: disc;
+}
+
+.list li {
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.top-left {
+	color: rgb(55, 120, 185);
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    float: right;
+    text-align: right;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.result,
+.wallet-form,
+.qr-code,
+.transaction {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(218 219 219) 3px 3px 3px;
+}
+
+.result-title {
+	font-size: 18px;
+    line-height: 30px;
+    color: rgb(1, 32, 96);
+    display: block;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-count {
+	padding-top: 20px;
+    font-size: 37px;
+    line-height: 30px;
+    color: rgb(0, 141, 228);
+    display: block;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    position: relative;
+}
+
+.result-svg {
+	font-size: 40px;
+    color: lightgray;
+    bottom: 10px;
+    padding-top: 20px;
+    right: 20px;
+}
+.result-money-svg {
+    width: 3.25rem;
+}
+
+.result-key-svg  {
+	width: 2.25rem;
+}
+
+.result-dollar-svg  {
+	width: 1.8rem;
+}
+
+.balance-line {
+	display: inline-flex;
+}
+
+.wallet-form-title,
+.result-title {
+	font-weight: 600;
+    font-family: 'Montserrat Light';
+}
+
+.label-text,
+.address-qr-code,
+.transition table  {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.address-code {
+	width: 0.875em;
+}
+
+.input {
+	height: 49px;
+	border: 1px solid #ddd;
+    background: #fff;
+    padding: 0 13px;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.address-input {
+	width: 90%;
+}
+
+.wallet-btn {
+    background: #f1592a;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 23px;
+    text-transform: uppercase;
+    height: 40px;
+    transition: all .1s ease-in-out 0s;
+    font-weight: 700;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    max-width: 100%;
+}
+
+.wallet-btn:hover {
+    background: rgb(118, 118, 118);
+}
+
+.wallet-form {
+	min-height: 425px;
+}
+
+.device-section {
+	background: #b2b2b2;
+	width: 100%;
+	height: 390px;
+	display: none;
+}
+
+.device {
+	width: 80%;
+	border: 3px solid #FF7777;
+	height: 290px;
+	background: #fff;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal {
+    font-size: 16px;
+}
+
+.modal-body label {
+    padding-top: 10px;
+    line-height: 0;
+}
+
+.eror-msg,
+.next-error-msg {
+    display: none;
+}
+
+
+
+
+
+
+.wrapped-sidebar .nk-sidebar {
+    width: 55px;
+    padding-top: 0;
+}
+.wrapped-sidebar .nk-sidebar .nk-sidebar-head,
+.wrapped-sidebar .nk-sidebar .nk-sidebar-widget,
+.wrapped-sidebar .nk-sidebar .nk-sidebar-footer {
+    display: none;
+}
+.wrapped-sidebar .nk-sidebar .nk-sidebar-element .nk-menu {
+    padding-right: 0;
+}
+
+.wrapped-sidebar .nk-sidebar .nk-sidebar-element .nk-sidebar-menu {
+    padding-top: 0.5rem;
+
+}
+
+.wrapped-sidebar .nk-sidebar .nk-sidebar-element .nk-menu .nk-menu-text {
+    display: none;
+}
+.wrapped-sidebar .nk-sidebar .nk-sidebar-element .nk-menu .nk-menu-link {
+    padding: .625rem 24px;
+}
+.wrapped-sidebar .nk-wrap {
+    padding:  0;
+}
+
+
+@media (min-width: 1540px) {
+    .wrapped-sidebar .nk-content{
+        padding-left: 0;
+        padding-right: 340px;
+    }
+}
+
+.p-m {
+    margin-left: 21px;
+}
+
+.nk-m-t {
+    margin-top: 2px;
+}
